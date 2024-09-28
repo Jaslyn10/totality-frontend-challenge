@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import '../CheckoutPage.css';  
 
 const CheckoutPage = () => {
-  const { cart, removeFromCart, clearCart } = useContext(BookingContext);
+  const { cart, clearCart } = useContext(BookingContext);
   const [formData, setFormData] = useState({
     name: '',
     email: '',

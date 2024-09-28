@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useContext, useCallback } from 'react';
 import PropertyCard from './PropertyCard';
 import { BookingContext } from '../context/BookingContext';
 import Grid from '@mui/material/Grid';  
@@ -10,7 +10,6 @@ const PropertyList = () => {
   const [properties, setProperties] = useState([]);  
   const [filteredProperties, setFilteredProperties] = useState([]); 
 
-
   const [locationFilter, setLocationFilter] = useState('');
   const [priceRange, setPriceRange] = useState([0, 1000]);  // Price range filter 
   const [bedroomsFilter, setBedroomsFilter] = useState(0);  // Filter by bedrooms
@@ -21,8 +20,8 @@ const PropertyList = () => {
     setFilteredProperties(propertyData);  // Show all properties by default
   }, []);
 
-  // Function to filter properties
-  const filterProperties = () => {
+  // Function to filter properties, wrapped in useCallback to prevent re-creation on each render
+  const filterProperties = useCallback(() => {
     const filtered = properties.filter((property) => {
       // location filter
       const matchesLocation = locationFilter ? property.location === locationFilter : true;
@@ -42,16 +41,15 @@ const PropertyList = () => {
     });
 
     setFilteredProperties(filtered);
-  };
+  }, [properties, locationFilter, priceRange, bedroomsFilter, selectedAmenities]);
 
   useEffect(() => {
     filterProperties(); 
-  }, [locationFilter, priceRange, bedroomsFilter, selectedAmenities]);
+  }, [filterProperties]);  // Add filterProperties to the dependency array
 
   const handleAddToCart = (property) => {
     addToCart(property);
   };
-
 
   const handleAmenityChange = (amenity) => {
     setSelectedAmenities(prev =>
