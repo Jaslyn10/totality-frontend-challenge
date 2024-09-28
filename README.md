@@ -18,6 +18,28 @@ This project is a frontend application built as a part of the Totality Frontend 
 ## Deployment
 The application is deployed on Netlify. You can view the live version [here](#).
 
+## How to Run Locally
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone (https://github.com/Jaslyn10/totality-frontend-challenge.git)
+-Navigate to the project directory:
+
+cd totality-frontend-challenge
+
+-Install dependencies:
+
+npm install
+
+-Start the development server:
+
+npm start
+
+## Additional Notes
+The images are located in the public/images folder.
+Make sure to restart the development server after adding new images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
