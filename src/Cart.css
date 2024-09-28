@@ -1,0 +1,54 @@
+.page-heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .no-bookings-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .booking-item {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-item h4 {
+    margin-bottom: 10px;
+  }
+  
+  .booking-item p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  .cart-summary {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cart-summary h3 {
+    margin: 10px 0;
+  }
+  

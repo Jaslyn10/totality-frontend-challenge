@@ -1,0 +1,65 @@
+.page-heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .booking-summary {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .booking-summary h3 {
+    margin-bottom: 10px;
+  }
+  
+  .booking-summary div {
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form {
+    margin-top: 20px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .grid-item {
+    padding: 10px;
+  }
+  
