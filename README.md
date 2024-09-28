@@ -1,3 +1,45 @@
+# Totality Frontend Challenge
+
+## Project Overview
+This project is a frontend application built as a part of the Totality Frontend Challenge. The application showcases a list of properties with images, descriptions, and details such as price, location, and amenities.
+
+## Tech Stack
+- **React**: Used for building the UI and managing component state.
+- **Firebase**: Used for hosting and managing backend functionality (if applicable).
+- **Netlify**: The application is deployed on Netlify for easy hosting and deployment.
+- **JavaScript (ES6+)**: Core programming language used.
+- **HTML5/CSS3**: Markup and styling.
+
+## Approach
+- The project uses React to render a list of properties with dynamic data.
+- Static images for the properties are stored in the `public/images` folder.
+- Each property object contains details such as title, description, price, location, and amenities, which are rendered dynamically in the UI.
+
+## Deployment
+The application is deployed on Netlify. You can view the live version [here](#).
+
+## How to Run Locally
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone (https://github.com/Jaslyn10/totality-frontend-challenge.git)
+-Navigate to the project directory:
+
+cd totality-frontend-challenge
+
+-Install dependencies:
+
+npm install
+
+-Start the development server:
+
+npm start
+
+## Additional Notes
+The images are located in the public/images folder.
+Make sure to restart the development server after adding new images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
