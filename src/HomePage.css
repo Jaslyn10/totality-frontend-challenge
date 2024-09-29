@@ -1,18 +1,19 @@
 .page-heading {
-  font-size: 3.5em;  /* Larger font size for a prominent look */
-  font-weight: 700;  /* Bold weight */
-  text-align: center;  /* Center-align the heading */
-  background: linear-gradient(90deg, #ff416c, #ff4b2b);  /* Text gradient */
+  font-size: 3.5em; 
+  font-weight: 700; 
+  text-align: center;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  /* Make the background gradient fill the text */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-  letter-spacing: 2px;  /* Space out the letters slightly */
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;  
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;  
   margin-top: 30px;
   margin-bottom: 20px;
-  animation: fadeIn 1.5s ease-in-out;  /* Smooth fade-in animation */
+  animation: fadeIn 1.5s ease-in-out; 
 }
 
-/* Keyframes for fade-in animation */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -43,13 +44,13 @@
   
   .navbar a {
     text-decoration: none;
-    color: #ef5d1e;
+    color: #0e0606;
     font-weight: bold;
     font-size: 1.1em;
   }
   
   .navbar a:hover {
-    color: #0b0c0c;
+    color: #e78f15;
   }
   
   
