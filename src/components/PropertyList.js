@@ -81,7 +81,7 @@ const PropertyList = () => {
 
         <h4>Filter by Bedrooms</h4>
         <select value={bedroomsFilter} onChange={(e) => setBedroomsFilter(Number(e.target.value))}>
-          <option value={0}>Any</option>
+          <option value={0} class="any">Any</option>
           <option value={1}>1 Bedroom</option>
           <option value={2}>2 Bedrooms</option>
           <option value={3}>3 Bedrooms</option>
@@ -98,6 +98,7 @@ const PropertyList = () => {
             />
             Wi-Fi
           </label>
+          <br></br>
           <label>
             <input
               type="checkbox"
@@ -106,6 +107,7 @@ const PropertyList = () => {
             />
             Pool
           </label>
+          <br/>
           <label>
             <input
               type="checkbox"

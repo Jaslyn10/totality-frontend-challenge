@@ -37,7 +37,6 @@ const FavoritesPage = () => {
 
   return (
     <div>
-      {/* Page heading */}
       <h2 className="page-heading">Your Favorite Properties</h2>
 
       {favorites.length === 0 ? (

@@ -1,11 +1,28 @@
 .page-heading {
-    text-align: center;
-    font-size: 2.5em;
-    color: #333;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  font-size: 3.5em;  /* Larger font size for a prominent look */
+  font-weight: 700;  /* Bold weight */
+  text-align: center;  /* Center-align the heading */
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);  /* Text gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  /* Make the background gradient fill the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+  letter-spacing: 2px;  /* Space out the letters slightly */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out;  /* Smooth fade-in animation */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
   
   .welcome-message {
     text-align: center;
@@ -26,7 +43,7 @@
   
   .navbar a {
     text-decoration: none;
-    color: #2c7676;
+    color: #ef5d1e;
     font-weight: bold;
     font-size: 1.1em;
   }
