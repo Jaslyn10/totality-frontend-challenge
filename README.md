@@ -16,7 +16,7 @@ This project is a frontend application built as a part of the Totality Frontend 
 - Each property object contains details such as title, description, price, location, and amenities, which are rendered dynamically in the UI.
 
 ## Deployment
-The application is deployed on Netlify. You can view the live version [here](propertyrentalplatform.netlify.app).
+The application is deployed on Netlify. You can view the live version on link - propertyrentalplatform.netlify.app
 
 ## How to Run Locally
 To run the project locally, follow these steps:
