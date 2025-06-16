@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project is a frontend application built as a part of the Totality Frontend Challenge. The application showcases a list of properties with images, descriptions, and details such as price, location, and amenities.
-
+## You can access the Website at: https://propertyrentalplatform.netlify.app/
 ## Tech Stack
 - **React**: Used for building the UI and managing component state.
 - **Firebase**: Used for hosting and managing backend functionality (if applicable).
