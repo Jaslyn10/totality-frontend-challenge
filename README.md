@@ -1,4 +1,4 @@
-# Totality Frontend Challenge
+# Totality Frontend Challenge - Property Rental Platform
 
 ## Project Overview
 This project is a frontend application built as a part of the Totality Frontend Challenge. The application showcases a list of properties with images, descriptions, and details such as price, location, and amenities.
